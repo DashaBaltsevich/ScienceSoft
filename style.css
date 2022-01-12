@@ -55,7 +55,7 @@ body {
 
 .main {
     display: flex;
-    margin-top: 70px;
+    padding-top: 135px;
     justify-content: space-between;
 }
 .content__text {
@@ -147,8 +147,10 @@ body {
     background-color: #202027;
     padding-top: 30px;
     padding-bottom: 20px;
-    z-index: 20;
     margin-top: -5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 .menu-footer {
     display: flex;
@@ -184,7 +186,6 @@ body {
     display: flex;
     justify-content: space-between;
     padding-top: 185px;
-    padding-bottom: 200px;
 }
 .discover_content {
     margin-right: 204px;
@@ -208,7 +209,7 @@ body {
     width: 147px;
     height: 139px;
     background-color: #202027;
-    margin-right: 74px;
+    margin-left: 74px;
     font-weight: normal;
     font-size: 24px;
     line-height: 36px;
@@ -222,6 +223,9 @@ body {
     -webkit-transition: all 1s ease-out;
     -moz-transition: all 1s ease-out;
     -o-transition: all 1s ease-out;
+}
+.discover__card:first-child {
+    margin-left: 0;
 }
 .discover__card:hover {
     -webkit-transform: scale(1.1);
@@ -240,7 +244,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-top: 38px;
-    padding-bottom: 132px;
 }
 .join__title {
     font-weight: bold;
@@ -260,7 +263,6 @@ body {
     padding-right: 109px;
     padding-left: 109px;
     padding-bottom: 60px;
-    max-width: 850px;
     display: flex;
     flex-direction: column;
 }
@@ -276,7 +278,6 @@ body {
     border: 2px solid #1762A7;
     box-sizing: border-box;
     border-radius: 11px;
-    width: 633px;
     height: 60px;
     margin-bottom: 57px;
     font-weight: 500;
@@ -294,4 +295,169 @@ body {
     font-size: 24px;
     line-height: 36px;
     cursor: pointer;
+}
+
+/*adaptive*/
+.container {
+    padding: 0 15px;
+}
+
+@media (max-width: 1650px) {
+    .container {
+        max-width: 1400px;
+    }
+    .footer__item__link {
+        font-size: 30px;
+    }
+    /*discover*/
+    .discover__title {
+        font-size: 66px;
+    }
+    .discover__text {
+        font-size: 30px;
+    }
+    /*join*/
+    .discover__title {
+        font-size: 66px;
+    }
+    .title__span {
+        font-size: 90px;
+    }
+    .join_form {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+}
+@media (max-width: 1430px) {
+    .container {
+        max-width: 1200px;
+    }
+    .footer__item__link {
+        font-size: 20px;
+    }
+    /*main*/
+    .main__title {
+        font-size: 66px;
+    }
+    .main__text {
+        font-size: 30px;
+    }
+    /*discover*/
+    .discover-photo img {
+        width: 110%;
+    }
+    .discover__title {
+        margin-top: 0;
+    }
+    .discover_content {
+        margin-right: 50px;
+    }
+    /*join*/
+    .join__title {
+        font-size: 66px;
+        line-height: 93px;
+    }
+    .title__span {
+        font-size: 86px;
+        line-height: 50px;
+    }
+}
+
+@media(max-width: 1340px) {
+    .container {
+        max-width: 900px;
+    }
+    /*main*/
+    .main__title {
+        font-size: 62;
+        line-height: 80px;
+    }
+    .main__text {
+        font-size: 22px;
+        margin-bottom: 70px;
+    }
+    .footer__item {
+        margin-right: 100px;
+    }
+    /*discover*/
+    .discover-main {
+        align-items: center;
+    }
+    .discover__title {
+        font-size: 64px;
+    }
+    /*join*/
+    .join__title {
+        max-width: 50px;
+    }
+    .join_form {
+        padding-top: 20px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .join__button {
+        padding: 20px 160px;
+    }
+}
+
+@media(max-width: 900px) {
+    /*main*/
+    .container {
+        max-width: 750px;
+    }
+    .content-text {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+    }
+    .content-img {
+        opacity: 0.3;
+    }
+    .footer__item {
+        margin-right: 57px;
+    }
+    /*discover*/
+    .discover-main {
+        padding-top: 140px;
+        text-align: center;
+    }
+    .discover_cards-wrap {
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+    .discover__title {
+        font-size: 56px;
+    }
+    .discover__text {
+        font-size: 26px;
+    }
+    .discover-photo {
+        display: none;
+    }
+    /*join*/
+    .join-main {
+        display: block;
+        padding-top: 0px;
+    }
+    .join__title {
+        max-width: 100%;
+        text-align: center;
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 46px;
+    }
+    .input {
+        margin-bottom: 35px;
+    }
+    .title__span {
+        font-size: 56px;
+    }
+}
+
+
+.discover-photo img {
+    object-fit: cover;
+    height: auto;
+    /* width: 100%; */
 }
