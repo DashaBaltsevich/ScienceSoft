@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="normalize.css">
-    <title>Soundwave</title>
+    <title>Join</title>
 </head>
 <body>
     <div class="container">
@@ -45,21 +45,23 @@
             </a>
             <nav class="menu-header-wrap">
                 <ul class="menu">
-                    <li class="menu__item"><a href="discover.html" class="menu__item__link menu-discover">Discover</a></li>
-                    <li class="menu__item"><a href="join.html" class="menu__item__link menu-join">Join</a></li>
+                    <li class="menu__item"><a href="discover.html" class="menu__item__link">Discover</a></li>
+                    <li class="menu__item"><a href="join.html" class="menu__item__link">Join</a></li>
                 </ul>
             </nav>
         </header>
 
-        <main class="main">
-            <div class="content-img">
-                <img src="images/girl.png" alt="girl" class="main__img">
-            </div>
-            <div class="content-text">
-                <h1 class="main__title">Fell The Music</h1>
-                <p class="main__text">Stream over 20 thousand songs in one click</p>
-                <button class="main__button">Join Now</button>
-            </div>
+        <main class="join-main">
+            <h1 class="join__title">Join the <span class="title__span">fun.</span></h1>
+            <form class="join_form" action="" method="post">
+                <label for="name" class="label">Name:</label>
+                <input type="text" class="input input-name" id="name">
+                <label for="mail" class="label">Email:</label>
+                <input type="text" class="input input-mail" id="mail">
+                <label for="password" class="label">Password:</label>
+                <input type="text" class="input input-passsword" id="password">
+                <button class="join__button">Join Now</button>
+            </form>
         </main>
     </div>
 
