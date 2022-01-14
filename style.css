@@ -1,3 +1,6 @@
+html {
+    overflow: scroll;
+}
 body {
     background-color: #2F303A;
     font-family: 'Poppins', sans-serif;
