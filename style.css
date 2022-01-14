@@ -55,7 +55,7 @@ body {
 
 .main {
     display: flex;
-    padding-top: 135px;
+    padding-top: 86px;
     justify-content: space-between;
 }
 .content__text {
@@ -127,7 +127,7 @@ body {
 body {
     position: relative;
 }
-.content-text::after {
+/* .content-text::after {
     top: 890px;
     right: 0px;
     position: absolute;
@@ -137,7 +137,7 @@ body {
     height: 517px;
     background-color: rgba(41, 114, 16, 0.1);
     border-radius: 50%;
-}
+} */
 
 /*burger*/
 
@@ -278,8 +278,8 @@ body {
 .discover-main {
     display: flex;
     justify-content: space-between;
-    padding-top: 185px;
-    padding-bottom: 267px;
+    padding-top: 125px;
+    padding-bottom: 187px;
 }
 .discover_content {
     margin-right: 204px;
@@ -337,13 +337,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 38px;
-    padding-bottom: 199px;
+    padding-top: 22px;
+    padding-bottom: 75px;
 }
 .join__title {
     font-weight: bold;
     font-size: 72px;
-    line-height: 108px;
+    line-height: 110px;
     color:#fff;
 }
 .title__span {
@@ -447,6 +447,10 @@ body {
         font-size: 30px;
     }
     /*discover*/
+    .discover-main {
+        padding-top: 165px;
+        padding-bottom: 210px;
+    }
     .discover-photo img {
         width: 110%;
     }
@@ -486,11 +490,15 @@ body {
     /*discover*/
     .discover-main {
         align-items: center;
+        padding-top: 171px;
     }
     .discover__title {
         font-size: 58px;
     }
     /*join*/
+    .join-main {
+        padding-top: 64px;
+    }
     .join__title {
         max-width: 50px;
     }
@@ -510,11 +518,13 @@ body {
     .container {
         max-width: 750px;
     }
+    .main__title {
+        margin-top: 153px;
+    }
     .content-text {
         position: absolute;
         text-align: center;
         padding-left: 150px;
-        /* width: 100vw; */
     }
     .content-img {
         opacity: 0.3;
@@ -524,7 +534,7 @@ body {
     }
     /*discover*/
     .discover-main {
-        padding-top: 140px;
+        padding-top: 160px;
         text-align: center;
     }
     .discover_content {
@@ -546,7 +556,8 @@ body {
     /*join*/
     .join-main {
         display: block;
-        padding-top: 0px;
+        padding-top: 33px;
+        padding-bottom: 60px;
     }
     .join_form {
         width: 80%;
@@ -645,6 +656,7 @@ body {
     }
     .main__title {
         font-size: 52px;
+        margin-top: 55px;
     }
     .main__text {
         font-size: 18px;
@@ -678,6 +690,10 @@ body {
         font-size: 16px;
         margin-left: 30px;
     }
+    .discover-main {
+        padding-top: 151px;
+        padding-bottom: 230px;
+    }
     /*join*/
     .join__title {
         font-size: 32px;
@@ -691,6 +707,10 @@ body {
     .join__button {
         font-size: 20px;
         padding: 14px 98px;
+    }
+    .join-main {
+        padding-top: 13px;
+        padding-bottom: 25px;
     }
 
 }
@@ -712,8 +732,12 @@ body {
     .open span:nth-child(3) {
         margin-top: -3px;
     }
+    .main {
+        padding-top: 234px;
+    }
     .main__title {
         font-size: 40px;
+        margin-top: -44px;
     }
     .main__text {
         max-width: 300px;
@@ -724,7 +748,8 @@ body {
         max-width: 320px;
     }
     .discover-main {
-        padding-top: 166px;
+        padding-top: 106px;
+        padding-bottom: 93px;
     }
     .discover__title {
         line-height: 60px;
@@ -737,7 +762,6 @@ body {
     }
 
 }
-
 .discover-photo img {
     object-fit: cover;
     height: auto;
