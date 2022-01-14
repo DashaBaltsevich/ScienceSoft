@@ -565,6 +565,10 @@ body {
     .content-img::after {
         display: none;
     }
+    .content-img img {
+        width: 90%;
+        height: auto;
+    }
     .content-text {
         padding: 0;
         padding-left: 15px;
@@ -623,6 +627,108 @@ body {
     .title__span {
         font-size: 46px;
     }
+}
+@media(max-width: 550px) {
+    /*main*/
+    .logo__span {
+        font-size: 28px;
+    }
+    .container {
+        max-width: 400px;
+    }
+    .main__title {
+        font-size: 52px;
+    }
+    .main__text {
+        font-size: 18px;
+        margin-bottom: 38px;
+    }
+    .main__button__link {
+        font-size: 18px;
+    }
+    .main__button {
+        padding: 14px 57px;
+    }
+    .content-img img {
+        width: 103%;
+    }
+    .menu-footer {
+        display: block;
+    }
+    .menu-footer-wrap {
+        display: flex; 
+        justify-content: space-between;       
+    }
+    .footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    /*discover*/
+    .discover-main {
+        padding-top: 170px;
+    }
+    .discover__card {
+        font-size: 16px;
+        margin-left: 30px;
+    }
+    /*join*/
+    .join__title {
+        font-size: 32px;
+    }
+    .title__span {
+        font-size: 40px;
+    }
+    .label {
+        font-size: 20px;
+    }
+    .join__button {
+        font-size: 20px;
+        padding: 14px 98px;
+    }
+
+}
+@media(max-width: 450px) {
+    /*main*/
+    .container {
+        max-width: 320px;
+    }
+    .logo__svg {
+        width: 40px;
+        height: 40px;
+    }
+    .logo__span {
+        font-size: 26px;
+    }
+    .burger span:nth-child(1) {
+        margin-top: 9px;
+    }
+    .open span:nth-child(3) {
+        margin-top: -3px;
+    }
+    .main__title {
+        font-size: 40px;
+    }
+    .main__text {
+        max-width: 300px;
+        margin-bottom: 28px;
+    }
+    /*discover*/
+    .discover_content {
+        max-width: 320px;
+    }
+    .discover-main {
+        padding-top: 166px;
+    }
+    .discover__title {
+        line-height: 60px;
+        font-size: 36px;
+    }
+    /*join*/
+    .join__button {
+        font-size: 18px;
+        padding: 13px 73px;
+    }
+
 }
 
 .discover-photo img {
