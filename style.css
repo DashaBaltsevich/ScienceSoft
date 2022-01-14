@@ -242,9 +242,9 @@ body {
     padding-top: 30px;
     padding-bottom: 20px;
     margin-top: -5px;
-    position: fixed;
+    /* position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 100%; */
 }
 .menu-footer {
     display: flex;
@@ -563,6 +563,12 @@ body {
     }
     /*main*/
     .content-img::after {
+        display: none;
+    }
+    .content-img::before {
+        display: none;
+    }
+    .content-text::after {
         display: none;
     }
     .content-img img {
