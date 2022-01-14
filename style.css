@@ -46,7 +46,6 @@ body {
     line-height: 36px;
     -webkit-transition: all 1s ease-out;
 }
-
 .menu-join:active {
     font-weight: bold;
     color:#BC3A80;
