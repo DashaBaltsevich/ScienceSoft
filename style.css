@@ -103,6 +103,7 @@ body {
 .content-img {
     position: relative;
 }
+
 .content-img::before {
     top: 530px;
     left: 60px;
@@ -209,7 +210,7 @@ body {
     position: relative;
 }
 .right-menu__list {
-    background-color: rgb(188, 58, 128, 0.7);
+    background-color: rgb(188, 58, 128, 0.8);
     position: fixed;
     display: none;
     margin: 0;
@@ -229,6 +230,7 @@ body {
 .right-menu__list__link {
     color: #fff;
     text-decoration: none;
+    font-size: 26px;
 }
 .openMenu {
     display: block;
@@ -329,6 +331,10 @@ body {
 .dicsover__icon {
     margin-top: 17px;
     margin-bottom: 23px;
+}
+.discover-photo img {
+    object-fit: cover;
+    height: auto;
 }
 
 /*Join-page*/
@@ -762,8 +768,5 @@ body {
     }
 
 }
-.discover-photo img {
-    object-fit: cover;
-    height: auto;
-}
+
 
